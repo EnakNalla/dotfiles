@@ -1,7 +1,5 @@
 dotfiles=$HOME/.dotfiles
 
-git clone https://github.com/EnakNalla/dotfiles $dotfiles
-
 ### homebrew ###
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew bundle install --file $dotfiles/Brewfile
