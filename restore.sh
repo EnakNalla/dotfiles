@@ -1,4 +1,4 @@
-dotfiles = $HOME/.dotfiles
+dotfiles=$HOME/.dotfiles
 
 git clone https://github.com/EnakNalla/dotfiles $dotfiles
 
@@ -6,7 +6,7 @@ git clone https://github.com/EnakNalla/dotfiles $dotfiles
 [ -e ~/.zshrc ] && rm ~/.zshrc
 [ -e ~/.zshenv ] && rm ~/.zshenv
 
-[! -d ~/.config ] && mkdir -p ~/.config
+[ ! -d ~/.config ] && mkdir -p ~/.config
 
 ln -s $HOME/.dotfiles/zsh $HOME/.config/zsh
 ln -s $HOME/.dotfiles/zsh/.zshenv $HOME/.zshenv
@@ -16,13 +16,14 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $dotfiles/zsh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $dotfiles/zsh/plugins/powerlevel10k
 
 source $HOME/.zshenv
+source $ZDOTDIR/.zshrc
 
 ### homebrew ###
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew bundle install --file $dotfiles/Brewfile
 
 ### backups ###
-[! -d ~/Library/scripts ] && mkdir -p ~/Library/scripts
+[ ! -d ~/Library/scripts ] && mkdir -p ~/Library/scripts
 cp $dotfiles/backup_scripts/com.enak.backup.sh $HOME/Library/scripts/com.enak.backup.sh
 chown $USER:wheel $HOME/Library/scripts/com.enak.backup.sh
 chmod +x $HOME/Library/scripts/com.enak.backup.sh
