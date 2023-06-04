@@ -6,7 +6,7 @@
     <string>com.enak.backup.plist</string>
 
     <key>Program</key>
-    <string>/users/kane/Library/Scripts/com.enak.backup.sh</string>
+    <string>replace</string>
     <key>StandardErrorPath</key>
     <string>/tmp/com.enak.backup.err</string>
     <key>StandardOutPath</key>

@@ -1,6 +1,6 @@
 # !/bin/bash
 
-brew bundle dump --file $HOME/.dotfiles/Brewfile
+brew bundle dump --force --file $HOME/.dotfiles/Brewfile
 
 pushd $HOME/.dotfiles
 
