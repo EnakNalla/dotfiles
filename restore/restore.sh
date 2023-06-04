@@ -33,3 +33,6 @@ sudo sed -i "1s/^/auth sufficient pam_tid.so \n/" /ect/pam.d/sudo # sudo with fi
 ### node ###
 nvm install --lts
 nvm use --lts
+
+### git ###
+gh auth login
