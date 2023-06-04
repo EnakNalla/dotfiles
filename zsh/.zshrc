@@ -16,16 +16,16 @@ source "$ZDOTDIR/aliases.zsh"
 source "$ZDOTDIR/functions.zsh"
 
 ### autocompletions ###
-source "$ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^ ' autosuggest-accept # ctrl + space accept
 
-#source "$ZDOTDIR/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh"
+source $HOMEBREW_PREFIX/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
-fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
-autoload -U compinit
+FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+#autoload -Uz compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
-compinit
+#compinit
 __comp_options+=(globdots) # include hidden files
 
 ### VIMODE ###
@@ -65,7 +65,7 @@ cursor_mode() {
 cursor_mode
 
 ### syntax highlighting ###
-source "$ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_HIGHLIGHT_HIGHLIGHTERS+=(main brackets pattern regexp root line cursor) 
 
 ### load stuff ###
@@ -77,3 +77,10 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS+=(main brackets pattern regexp root line cursor)
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+test -e "${ZDOTDIR}/.iterm2_shell_integration.zsh" && source "${ZDOTDIR}/.iterm2_shell_integration.zsh"
+
+if [[ ${chpwd_functions[(r)list_all]} != "list_all" ]];then
+  chpwd_functions=(${chpwd_functions[@]} "list_all")
+fi
+
