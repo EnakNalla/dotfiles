@@ -1,3 +1,5 @@
+dotfiles=$HOME/.dotfiles
+
 [ -e ~/.zshrc ] && rm ~/.zshrc
 [ -e ~/.zshenv ] && rm ~/.zshenv
 
