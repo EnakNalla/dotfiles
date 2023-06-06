@@ -1,14 +1,13 @@
 layouts:
-  - Fullscreen
+  - fullscreen
   - column
 
 # --- keybinds  --- #
 
 mod1:
   - option
+
 mod2:
-  - shift
-mod3:
   - option
   - shift
 
@@ -16,64 +15,80 @@ mod3:
 cycle-layout:
   mod: mod1
   key: space
-Fullscreen:
-  mod: mod1
-  key: f
-tall:
+
+select-column-layout:
   mod: mod1
   key: c
+
+select-fullscreen-layout:
+  mod: mod1
+  key: f
 
 # window management
 decrease-main:
   mod: mod1
-  key: leftarrow
+  key: left
+
 increase-main:
   mod: mod1
-  key: rightarrow
+  key: right
+
 focus-ccw:
   mod: mod1
   key: J
+
 focus-cw:
   mod: mod1
   key: K
+
 swap-ccw:
-  mod: mod3
+  mod: mod2
   key: J
+
 swap-cw:
-  mod: mod3
+  mod: mod2
   key: K
+
 toggle-float:
   mod: mod1
   key: t
 
 # spaces
 throw-space-1:
-  mod: mod3
+  mod: mod2
   key: 1
+
 throw-space-2:
-  mod: mod3
+  mod: mod2
   key: 2
+
 throw-space-3:
-  mod: mod3
+  mod: mod2
   key: 3
+
 throw-space-4:
-  mod: mod3
+  mod: mod2
   key: 4
+
 throw-space-5:
-  mod: mod3
+  mod: mod2
   key: 5
 
 relaunch-amethyst:
-  mod: mod3
+  mod: mod2
   key: q
+
 reevaluate-windws:
-  mod: mod3
+  mod: mod2
   key: x
 
 floating:
   - com.apple.systempreferences
 
 window-margins: true
+
 window-margin-size: 10px
 
 use-canary-build: true # beta builds
+
+enables-layout-hud-on-space-change: false

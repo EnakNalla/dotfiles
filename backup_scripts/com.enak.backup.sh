@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 
 brew bundle dump --force --file $HOME/.dotfiles/Brewfile
 

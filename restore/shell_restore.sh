@@ -1,3 +1,5 @@
+#!/bin/bash
+
 dotfiles=$HOME/.dotfiles
 
 [ -e ~/.zshrc ] && rm ~/.zshrc
