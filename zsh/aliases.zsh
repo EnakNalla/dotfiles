@@ -1,4 +1,5 @@
 alias vim="nvim"
+alias vim-cfg='nvim $HOME/.config/nvim/'
 
 # replace ls with exa
 alias l='exa'
