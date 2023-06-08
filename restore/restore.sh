@@ -29,7 +29,7 @@ ln -s $dotfiles/amethyst.yml $HOME/.amethyst.yml
 
 ### vim ###
 ln -s $dotfiles/nvim $HOME/.config/nvim
-ln -s $dotfiles/ideavimrc $home/.ideavimrc
+ln -s $dotfiles/ideavimrc $HOME/.ideavimrc
 
 ### misc ###
 sudo sed -i "1s/^/auth sufficient pam_tid.so \n/" /etc/pam.d/sudo # sudo with fingerprint
