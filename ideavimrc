@@ -98,14 +98,14 @@ let g:WhichKeyDec_nohl = "<leader>n Clear search highlights"
 " Key mappings
 
 " Tab navigation
-nnoremap <S-j> :tabnext<CR>
-nnoremap <S-k> :tabprev<CR>
+nnoremap <S-l> :tabnext<CR>
+nnoremap <S-h> :tabprev<CR>
 
 " Pane navigation
-nnoremap <A-h> <C-w>h
-nnoremap <A-l> <C-w>l
-nnoremap <A-k> <C-w>k
-nnoremap <A-j> <C-w>j
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+nnoremap <C-k> <C-w>k
+nnoremap <C-j> <C-w>j
 
 " Jump between methods
 nnoremap [[ <Action>(MethodUp)
@@ -184,4 +184,4 @@ map <leader>gb <Action>(Git.Branches)
 map <leader>xn <Action>(ReSharperGotoNextErrorInSolution)
 map <leader>xp <Action>(ReSharperGotoPrevErrorInSolution)
 
-"map K <Action>(ShowErrorDescription)
+map <S-k> <Action>(ShowErrorDescription)

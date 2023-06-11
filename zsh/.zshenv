@@ -13,7 +13,7 @@ export EDITOR="vim"
 export VISUAL="vim"
 
 ### HOMEBREW ###
-eval export HOMEBREW_PREFIX="/opt/homebrew";
+export HOMEBREW_PREFIX="/opt/homebrew";
 export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
 export HOMEBREW_REPOSITORY="/opt/homebrew";
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";
@@ -24,3 +24,7 @@ export DOTNET_ROOT="/opt/homebrew/opt/dotnet/libexec"
 
 ### PATH ###
 export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+
+### EXPO ###
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
