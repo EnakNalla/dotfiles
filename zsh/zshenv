@@ -1,0 +1,31 @@
+# XDG Base Directory Specification
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$XDG_CONFIG_HOME/local/share"
+export XDG_CACHE_HOME="$XDG_CONFIG_HOME/cache"
+
+export TERM='rxvt-256color'
+
+# global path aliases
+export DOTFILES="$HOME/.config/dotfiles"
+export WORKSPACE="$HOME/workspace"
+
+# default editor
+export EDITOR="nvim"
+export VISUAL="$EDITOR"
+
+# zsh
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+
+export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
+export HISTSIZE=10000                   # Maximum events for internal history
+export SAVEHIST=10000                   # Maximum events in history file
+setopt HIST_IGNORE_DUPS # ignore duplicate commands
+HISTIGNORE="&:ls:[bf]g:exit:reset:clear:cd:cd ..:cd..:zh" # ignore these commands in history
+
+# add local bin to path
+export PATH="$HOME/.local/bin:$PATH"
+
+# Herd injected PHP binary.
+export PATH="/Users/enak/Library/Application Support/Herd/bin/":$PATH
+# Herd injected PHP 8.2 configuration.
+export HERD_PHP_82_INI_SCAN_DIR="/Users/enak/Library/Application Support/Herd/config/php/82/"

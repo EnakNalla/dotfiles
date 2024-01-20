@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.enak.backup.plist</string>
+
+    <key>Program</key>
+    <string>/home/enak/library/scripts/com.enak.backup.sh</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/com.enak.backup.err</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/com.enak.backup.out</string>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Hour</key>
+      <integer>23</integer>
+      <key>Minute</key>
+      <integer>00</integer>
+    </dict>
+  </dict>
+</plist>

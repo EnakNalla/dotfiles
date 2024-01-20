@@ -1,0 +1,38 @@
+import = ["/Users/enak/.config/dotfiles/alacritty/themes/catppuccin-macchiato.toml"]
+
+[cursor.style]
+shape = "Beam"
+
+[cursor.vi_mode_style]
+blinking = "Off"
+shape = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 18.0
+
+[font.bold]
+family = "JetbrainsMono Nerd Font"
+
+[font.bold_italic]
+family = "JetbrainsMono Nerd Font"
+
+[font.italic]
+family = "JetbrainsMono Nerd Font"
+
+[font.normal]
+family = "JetbrainsMono Nerd Font"
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[window]
+decorations = "Full"
+dynamic_padding = true
+
+[window.padding]
+x = 5
+y = 5

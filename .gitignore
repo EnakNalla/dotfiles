@@ -1,0 +1,15 @@
+tmux/plugins
+
+zsh/.zsh_history
+zsh/.zcompdump
+
+# lazyvim
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
