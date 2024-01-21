@@ -1,4 +1,4 @@
-cmd - return : open /Applications/iTerm.app --args -AppCommandLineArg --single-instance -d ~
+# cmd - return : open /Applications/iTerm.app --args -AppCommandLineArg --single-instance -d ~
 
 # focus window
 alt - h : yabai -m window --focus west

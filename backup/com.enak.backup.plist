@@ -6,7 +6,7 @@
     <string>com.enak.backup.plist</string>
 
     <key>Program</key>
-    <string>/home/enak/library/scripts/com.enak.backup.sh</string>
+    <string>/Users/enak/library/scripts/com.enak.backup.sh</string>
     <key>StandardErrorPath</key>
     <string>/tmp/com.enak.backup.err</string>
     <key>StandardOutPath</key>

@@ -46,6 +46,13 @@ ln -s $DOTFILES/alacritty/alacritty.toml $HOME/.config/alacritty
 ### tmux ###
 ln -s $DOTFILES/tmux/tmux.conf $HOME/.tmux.conf
 
+### sketchybar ###
+ln -s $DOTFILES/sketchybar $HOME/.config/sketchybar
+
+### yabai / skhd ###
+ln -s $DOTFILES/yabai/yabairc $HOME/.yabairc
+ln -s $DOTFILES/skhd/skhdrc $HOME/.skhdrc
+
 ### node ###
 print "Installing node..."
 nvm install --lts
@@ -57,3 +64,5 @@ defaults write com.apple.finder CreateDesktop false # hide desktop icons
 killall Finder
 
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false # allow key repeat
+
+ptint "Done!"
