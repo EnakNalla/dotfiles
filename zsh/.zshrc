@@ -21,6 +21,11 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
+# functions
+function killport() {
+  lsof -i tcp:$1 | awk 'NR!=1 {print $2}' | xargs kill
+}
+
 # pnpm
 export PNPM_HOME="/Users/enak/.config/local/share/pnpm"
 case ":$PATH:" in
