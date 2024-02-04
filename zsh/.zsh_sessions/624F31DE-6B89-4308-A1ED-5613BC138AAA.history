@@ -1,0 +1,1221 @@
+: 1697577017:0;ls .config/zsh
+: 1697577017:0;ls -la .config/zsh
+: 1697577053:0;ls
+: 1697577331:0;/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+: 1697577358:0;(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/enak/.config/zsh/.zprofile
+: 1697577369:0;eval "$(/opt/homebrew/bin/brew shellenv)"
+: 1697577829:0;cd m
+: 1697577919:0;npm
+: 1697577960:0;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+: 1697578218:0;export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"\
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm\
+
+: 1697578241:0;echo $NVM_DIR
+: 1697578274:0;brew install nvm
+: 1697578284:0;brew reinstall nvm
+: 1697578307:0;nvm
+: 1697579847:0;pnpm --filter api debuf
+: 1697651157:0;cd ~/projects/repository.cocoscrapers
+: 1697731651:0;cd mediarr/mediarr
+: 1697741618:0;migrate create -ext slq -dir db/migrations -seq create_tv_tables
+: 1697742288:0;go get github.com/ryanbradynd05/go-tmdb
+: 1697998279:0;adb disconnect 192.168.1.99
+: 1697998961:0;pnpm --filter api debug
+: 1698095612:0;cd go
+: 1698095803:0;make migrate
+: 1698096913:0;make migrate-up
+: 1698097561:0;o et ithub.com/in-contrib/sessions
+: 1698097565:0;go et ithub.com/in-contrib/sessions
+: 1698097577:0;go get github.com/gin-contrib/sessions
+: 1698097794:0;go get github.com/joho/godotenv
+: 1698097960:0;go get "github.com/gin-contrib/sessions/redis"
+: 1698134296:0;cd .config
+: 1698134398:0;cd tmux/
+: 1698134403:0;nvim tmux.conf
+: 1698167544:0;cd ~/mediarr/go
+: 1698254359:0;cd ../../mediarr
+: 1698260461:0;workload
+: 1698261489:0;brew remove dotnet
+: 1698261498:0;brew cleanup
+: 1698263074:0;dotnet workload install maui
+: 1698263081:0;sudo dotnet workload install maui
+: 1698263538:0;dotnet new install Microsoft.Maui.Templates
+: 1698266437:0;pnpm add -Dw prettier @ianvs/prettier-plugin-sort-imports
+: 1698266622:0;pnpm add -Dw eslint
+: 1698266696:0;nvim .
+: 1698267412:0;pnpm add -Dw @typescript-eslint/eslint-\
+plugin
+: 1698267418:0;pnpm add -Dw @typescript-eslint/eslint-plugin
+: 1698267499:0;pnpm add -Dw @next/eslint-plugin-next@latest
+: 1698267956:0;pnpm add -Dw husky lint-staged
+: 1698267999:0;git commit -m "add husky w/ lint-staged hook"
+: 1698268220:0;pnpm add expres
+: 1698268423:0;pnpm add -D drizzle-kit\
+\
+
+: 1698269118:0;pnpm add drizzle-zod
+: 1698269719:0;pnpm generate
+: 1698338843:0;pnpm add connect-redis express-session passport passport-local
+: 1698338864:0;pnpm add -D @types/passport @types/passport-local
+: 1698344898:0;pnpm add -Dw eslint-plugin-import eslint-import-resolver-typescript
+: 1698345162:0;pnpm remove eslint-import-resolver-typescript
+: 1698349542:0;cd ../../apps/api
+: 1698349639:0;pnpm generate-migration
+: 1698350001:0;pnpm migrate:down
+: 1698350033:0;pnpm migrate:up
+: 1698354012:0;git commit -m "setup project w/ dagger hilt"
+: 1698360030:0;git commit -m "implement login flow"
+: 1698485378:0;pnpm cli register enak2 Prairie97 --admin
+: 1698487459:0;pnpm cli register enak3 Prairie97 --admin
+: 1698578409:0;cd ~/pro
+: 1698578460:0;cd ~/projects/mediarr
+: 1698586554:0;ssh enak@kinflix.club -p 9575
+: 1698587565:0;pnpm i parse-torrent parse-torrent-title
+: 1698587583:0;pnpm --filter api add parse-torrent parse-torrent-title
+: 1698587621:0;cd ~/mediarr/mediarr
+: 1698587981:0;pnpm --filter api add fast-xml-parser
+: 1698589253:0;pnpm --filter api add -D @types/parse-torrent
+: 1698589263:0;pnpm --filter api add -D @types/parse-torrent-title
+: 1698599755:0;pnpm cli test
+: 1698601065:0;ssh-keygen
+: 1698612636:0;scp caddy_linux_arm64_custom mediarr:/home/enak
+: 1698619620:0;gh repo clone CocoJoe2411/repository.cocoscrapers
+: 1698619657:0;cd script.module.cocoscrapers/script.module.cocoscrapers
+: 1698693841:0;cd ../plex_debrid
+: 1698695825:0;scp mediarr:/opt/response.json .
+: 1698695836:0;vim ./response.json
+: 1698696570:0;vim response.json
+: 1698703717:0;poetry add Flask-SQLAlchemy
+: 1698705119:0;poetry add dotenv
+: 1698705161:0;pip wheel --use-pep517 "dotenv (==0.0.5)
+: 1698705162:0;pip wheel --use-pep517 "dotenv (==0.0.5)"
+: 1698705212:0;poetry add python-dotenv
+: 1698705484:0;poetry add Flask-Session
+: 1698705615:0;poetry add redis
+: 1698739019:0;poetry add bcrypt
+: 1698739680:0;poetry remove bcrypt
+: 1698739691:0;poetry add flask-bcrypt
+: 1698740231:0;poetry add flask-restplus
+: 1698769572:0;poetry remove flask-restplus
+: 1698769840:0;poetry add use_args
+: 1698769853:0;poetry add webargs
+: 1698782021:0;adb connect 192.168.1.69
+: 1698852264:0;cd lisle/public_html
+: 1698857328:0;import "github.com/gin-gonic/gin"
+: 1698857354:0;go get -u github.com/gin-gonic/gin
+: 1698857643:0;go get github.com/jackc/pgx/v5
+: 1698857822:0;go get err 
+: 1698857831:0;go get "github.com/sirupsen/logrus"
+: 1698858298:0;go get "github.com/joho/godotenv"
+: 1698858359:0;go run
+: 1698859484:0;go mod tidy
+: 1698861098:0;go get     "github.com/urfave/cli/v2"
+: 1698861817:0;go run main.go
+: 1698862073:0;cd ../../me
+: 1698862075:0;cd ../../Mediarr
+: 1698862087:0;cd ~/projects/media
+: 1698880393:0;cd ~/AndroidStudioProjects
+: 1698956683:0;gh repo clone barca-reddit/esbuild-typescript-turborepo mediarr
+: 1698956691:0;rm -rg .git
+: 1698957695:0;pnpm add -Dw turbo
+: 1698957935:0;pnpm add -Dw prettier
+: 1698958655:0;cd ../../packages/types
+: 1698959092:0;pnpm --filter server add -D tsx typescript
+: 1698959370:0;pnpm --filter server add -D esbuild
+: 1698959642:0;pnpm --filter server add tsx
+: 1698959653:0;pnpm --filter server remove tsx
+: 1698959665:0;pnpm --filter server add -D tsx
+: 1698960022:0;pnpm add -D eslint
+: 1698960391:0;pnpm --filter eslint-config lint
+: 1698960700:0;cd ../eslint
+: 1698960748:0;pnpm add -D @types/eslint typescript
+: 1698960993:0;pnpm eslint base.cjs
+: 1698963836:0;pnpm add --filter server express
+: 1698963852:0;pnpm add -D --filter server @types/express
+: 1698963957:0;pnpm --filter types add zod
+: 1698964142:0;pnpm add -D --filter server zod
+: 1698964469:0;mkcd esbuild
+: 1698964638:0;pnpm add -D esbuild
+: 1698964878:0;pnpm --filter types add esbuild
+: 1698965733:0;pnpm --filter types add -D tsup
+: 1698965914:0;pnpm --filter types tsup
+: 1698965921:0;pnpm --filter types build
+: 1698966289:0;node apps/server/dist/index.js
+: 1698967087:0;cd tooling/tsup
+: 1698967704:0;rm -rf dist
+: 1698967717:0;mv apps/server/dist ../
+: 1698967785:0;cp mediarr/apps/server/package.json ./dist
+: 1698967849:0;pnpm i --omit=dev
+: 1698967970:0;mkcd nx
+: 1698967990:0;pnpx create-nx-workspace --preset=express
+: 1698968071:0;npx nx g @nx/js:lib mylib
+: 1698968133:0;pnpm --filter mylib add zod
+: 1698968329:0;nx build
+: 1698968419:0;mv dist ../
+: 1698968424:0;cd ../dist
+: 1698968487:0;ld
+: 1698968507:0;cp mediarr/package.json ./dist
+: 1698968512:0;cd ./dist
+: 1698968518:0;pnpm install --prod
+: 1698968542:0;node apps/server/main.js
+: 1698968590:0;cd ../mediarr
+: 1698968591:0;pnpm install --save-dev @nx/next
+: 1698968619:0;nx g @nx/next:app my-new-app
+: 1699039451:0;dotnet run --help
+: 1699039593:0;dotnet user-secrets set "ConnectionStrings:DefaultConnection" "postgresql:\\admin:dev@localhost:5432/mediarr-dev"
+: 1699039959:0;dotnet run register
+: 1699040082:0;cd ../Api
+: 1699040093:0;dotnet user-secrets init
+: 1699040314:0;dotnet tool list -g
+: 1699040477:0;dotnet run register -u Enak -p Prairie97 --admin
+: 1699040664:0;dotnet build -h
+: 1699040687:0;cd bin
+: 1699040689:0;cd Debug
+: 1699040692:0;cd net7.0
+: 1699040753:0;dotnet user-secrets set "Trakt:ClientSecret" "eb333d39f69c6f451e4e357cdefec0d5f3f2526fa1745bc56a303dc70a88d6e"
+: 1699040771:0;dotnet user-secrets set "Trakt:ClientId" "79a3443495d0f2b305326b6b9316508086fcc843648a169b0906d660827354cc"
+: 1699044084:0;cd ../Cli/bin/Debug/net7.0
+: 1699044093:0;./Cli register -u Enak -p Prairie97 --admin
+: 1699044101:0;./Cli register -u Enak2 -p Prairie97 --admin
+: 1699046451:0;cd ../../../../Api
+: 1699046500:0;dotnet user-secrets set "ConnectionString:Redis" "localhost"
+: 1699051119:0;dotnet watch run
+: 1699098921:0;poetry add flask-login
+: 1699114891:0;pnpm add -D typescript tsup @types/express prettier
+: 1699115253:0;pnpm add -D     "@ianvs/prettier-plugin-sort-imports"\
+
+: 1699115655:0;pnpm add eslint
+: 1699115715:0;pnpm add -D @types/eslint
+: 1699116751:0;yarn add -D @commitlint/config-conventional @commitlint/cli\
+
+: 1699116760:0;pnpm add -D @commitlint/config-conventional @commitlint/cli\
+
+: 1699117039:0;git commit -m "ci: implement git hooks"
+: 1699117078:0;git commit -m "add readme"
+: 1699117094:0;git commit -m "docs: add readme"
+: 1699118750:0;git commit -m "feat: add winston logger & validate env"
+: 1699119122:0;cd PhpstormProjects
+: 1699119271:0;cd ~/PhpstormProjects
+: 1699119277:0;cd me
+: 1699123128:0;mv mediarr mediarr-single
+: 1699123935:0;YABAI_CERT=yabai-cert sh -c "$(curl -fsSL "https://git.io/update-yabai")" &
+: 1699123994:0;brew services restart sketchybar
+: 1699124423:0;yabai -m space --focus next\
+
+: 1699124530:0;sudo yabai space --focus next
+: 1699124537:0;sudo yabai -m space --focus next
+: 1699124610:0;pnpm add -D turbo@latest
+: 1699125466:0;pnpm --filter eslint-config add -D typescript @mediarr/tsconfig
+: 1699125547:0;pnpm --filter eslint-config add -D @types/eslint
+: 1699126348:0;cd ../../apps/
+: 1699126469:0;pnpm add tsup
+: 1699127831:0;cd ../../packages/db
+: 1699127841:0;pnpm add -D typescript @mediarr/tsconfig @mediarr/eslint-config @mediarr/prettier-config
+: 1699129823:0;cd ../../apps
+: 1699131023:0;pnpm eslint
+: 1699131493:0;pnpm add @planetscale/database
+: 1699132043:0;pnpm add -D drizz
+: 1699133016:0;node dist/index.js
+: 1699134012:0;pnpm add -D dotenv-cli @mediarr/eslint-config @mediarr-prettier-config @mediarr-tsconfig typescript
+: 1699134022:0;pnpm add -D dotenv-cli @mediarr/eslint-config @mediarr/prettier-config @mediarr/tsconfig typescript
+: 1699135704:0;export $(grep -v '^#' .env | xargs -d '\n')\
+
+: 1699135723:0;export $(grep -v '^#' .env | xargs -0)\
+
+: 1699135775:0;export DATABASE_URL="mysql://xfscrp69kwondufm41m5:pscale_pw_Qyg9GwxY7BPZOdiNoKIUeLhCvUwEfkJlH6GDRCgm5yo@aws.connect.psdb.cloud/mediarr?ssl={"rejectUnauthorized":true}"
+: 1699135785:0;node dist/index.js register enak Prairie97 --admin
+: 1699135812:0;node dist/index.js register enak Prairie97 -a
+: 1699139710:0;cd projects/mediarr
+: 1699139781:0;pnpm start register enak Prairie97 --admin
+: 1699139874:0;pnpm start register enak Prairie97 -a
+: 1699140147:0;pnpm --filter db studio
+: 1699141014:0;pnpm add express-winston winston
+: 1699149390:0;cd ../../packages
+: 1699149593:0;pnpm add @mediarr/types
+: 1699150308:0;pnpm add bcrypt connect-redis express-session passport passport-local
+: 1699152271:0;pnpm add -D @esbuild-plugins/tsconfig-paths
+: 1699178097:0;pnpm add -D esbuild-plugin-tsconfig-paths
+: 1699211124:0;cd apps/server/dist
+: 1699211297:0;cd ../../../
+: 1699297668:0;ip -a
+: 1699297676:0;ip
+: 1699299236:0;pnpm --filter types add -D parse-torrent-title
+: 1699299868:0;scp ./dist mediarr:/home/enak
+: 1699299885:0;scp -r ./dist mediarr:/home/enak/server/
+: 1699300427:0;mv dist/index.js ~/projects
+: 1699300441:0;node index.js
+: 1699300473:0;scp index.js mediarr:/home/enak/server
+: 1699307738:0;gh repo 
+: 1699378834:0;python3 -v
+: 1699378858:0;python3 --version
+: 1699378869:0;which python3
+: 1699379008:0;/usr/bin/python3
+: 1699380124:0;cd ~/Downloads
+: 1699380130:0;cd plugin.video.fen
+: 1699380132:0;vim.
+: 1699394066:0;openssl s_client -debug -connect mediarr.live/api:443
+: 1699394069:0;openssl s_client -debug -connect mediarr.live/api
+: 1699394075:0;openssl s_client -debug -connect https://mediarr.live/api
+: 1699468981:0;cd AndroidStudioProjects
+: 1699552791:0;exi
+: 1699552808:0;mkcd new
+: 1699552890:0;cp -R ../../mediarr/tooling .
+: 1699552918:0;cp -R ../mediarr .
+: 1699552962:0;git branch -n dev
+: 1699552995:0;git branch dev
+: 1699553009:0;git checkout dev
+: 1699902255:0;cd plex_debrid
+: 1699906773:0;mkcd test
+: 1699906780:0;mkcd torrent-parsing
+: 1699913631:0;chmod +x ./venv/bin/activate
+: 1699913638:0;./venv/bin/activate
+: 1699913644:0;source ./venv/bin/activate
+: 1699913654:0;pip install cfscrape
+: 1699914726:0;rm -rf flaskProject
+: 1699914740:0;poetry new mediarr
+: 1699914779:0;pip3 check
+: 1699914785:0;pip3 list
+: 1699914794:0;poetry --help
+: 1699914811:0;cat ~/.zashrc
+: 1699914813:0;cat ~/.zshrc
+: 1699914854:0;whereis poetry
+: 1699914867:0;rm -rf ~/.local/bin/poetry
+: 1699914872:0;poetry
+: 1699914971:0;curl -sSL https://install.python-poetry.org | python3 -
+: 1699914987:0;poetry --version
+: 1699915423:0;poetry install flask-restx
+: 1699915434:0;poetry add flask-restx
+: 1699981110:0;cd ~/Parallels
+: 1699982023:0;python
+: 1699982027:0;python3
+: 1699994581:0;cd test
+: 1699994589:0;mkcd rd-test
+: 1699994826:0;pnpm oleoo
+: 1699994830:0;pnpm add oleoo
+: 1700085708:0;brew update dotnet
+: 1700085717:0;brew upgrade dotnet
+: 1700086191:0;dotnet -v
+: 1700086787:0;dotnet restore
+: 1700087525:0;sudo spctl --master-disable\
+
+: 1700087672:0;/Volumes/Photoshop\ 25.0\ Beta\ \(onhaxpk.net\)/INSTALLER.app/Contents/MacOS/applet ; exit;
+: 1700088232:0;dotnet user-secrets init\
+
+: 1700088251:0;dotnet user-secrets set "ConnectionStrings:Redis" "localhost"
+: 1700088272:0;dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Server=127.0.0.1;Port=5432;Database=mediarr-dev;User Id=admin;Password=dev;"
+: 1700088453:0;dotnet tool install --global dotnet-ef
+: 1700088654:0;dotnet ef migrations add AddUsersTable -s Api -p Persistence
+: 1700239901:0;pnpm add torrent-search-api
+: 1700240672:0;node torrent-search.js
+: 1700246374:0;cd PycharmProjects
+: 1700246586:0;mkcd Python
+: 1700246811:0;poetry add cfscrape
+: 1700248083:0;poetry add pyaes
+: 1700249814:0;cd Projects
+: 1700249837:0;git clone gh repo clone umbrellaplug/umbrellaplug.github.io
+: 1700249841:0;gh repo clone umbrellaplug/umbrellaplug.github.io
+: 1700249957:0;open
+: 1700249987:0;cd matrix
+: 1700254339:0;cd l
+: 1700254340:0;cd lib
+: 1700347381:0;gh repo clone UmairKhalid786/ComposeTv
+: 1700571035:0;cd Documents/lisle/svn/SmartCardRack/Driver/Linux\ Driver/digidown-hyperdriver-multi
+: 1700689475:0;mv * server
+: 1700689489:0;mv **/*.* server
+: 1700689493:0;mv **/.* server
+: 1700690094:0;pnpm add -D typescript ts-node-dev @types/node @types/express tsconfig-paths
+: 1700690133:0;npx tsc --init
+: 1700690700:0;pnpm add -D prettier @ianvs/prettier-plugin-sort-imports
+: 1700692205:0;pnpm remove ts-node-dev
+: 1700692212:0;pnpm add -D nodemon
+: 1700692419:0;npx tsc
+: 1700692955:0;pnpm add -D ts-node-dev path-alias
+: 1700693268:0;pnpm --version
+: 1700693365:0;npx only-allow-pnpm
+: 1700693544:0;npx path-alias
+: 1700693674:0;pnpm add -D tslib
+: 1700693870:0;pnpm add tscpaths
+: 1700695263:0;pnpm lint-stages
+: 1700695278:0;npx husky add .husky/pre-commit "pnpm lint-staged"
+: 1700695293:0;pnpm add -D husky lint-staged
+: 1700696432:0;pnpm add -D drizzle-kit
+: 1700763231:0;pnpm add passport passport-local express-session connect-redis
+: 1700763242:0;pnpm add -D @types/bcrypt @types/passport @types/passport-local @types/express-session
+: 1700769180:0;pnpm cli:dev -- register enak Prairie97 --admin
+: 1700854181:0;pnpm add -D @types/parse-torrent-title
+: 1700873560:0;pnpm install uuid\
+
+: 1700873774:0;pnpm remove uuid
+: 1700875184:0;pnpm de
+: 1700944597:0;git restore .
+: 1700945730:0;pnpm cli:dev -- register deek Prairie97
+: 1701011889:0;clearn
+: 1701013863:0;pnpm debug
+: 1701165092:0;dot_clean .
+: 1701165101:0;dot_clean -m .
+: 1701169777:0;cd Documents/lisle/public_html
+: 1701178682:0;brew install rapidapi
+: 1701185365:0;vim /Users/enak/.ssh/known_hosts 
+: 1701185798:0;ssh mediaee
+: 1701191395:0;docker build
+: 1701191591:0;docker build ./Dockerfile.yml
+: 1701191603:0;docker build ./Dockerfile
+: 1701191707:0;docker build .
+: 1701194572:0;vim /Users/enak/.ssh/known_hosts:
+: 1701194780:0;cat ~/.ssh/id_rsa.pub
+: 1701196520:0;ssh-copy-id enak@116.203.101.255
+: 1701196636:0;ssh-copy-id enak@49.13.152.196
+: 1701209620:0;migrate create -ext sql -dir db/migrations -seq create_users_table
+: 1701210100:0;go get "github.com/jackc/pgx/v5"
+: 1701286561:0;mkcd c#
+: 1701289882:0;cd /projects/mediarr
+: 1701294356:0;brew install postman
+: 1701294803:0;netstat -vanp tcp | grep 5000
+: 1701294837:0;kill -9 $(lsof -ti:3000)
+: 1701294843:0;kill -9 $(lsof -ti:5000)
+: 1701294855:0;sudo lsof -i :5000
+: 1701297516:0;mkcd develop
+: 1701298977:0;nvm install --lts
+: 1701299787:0;pnpm start
+: 1701299840:0;npm init @eslint/config\
+
+: 1701367622:0;rm -rf mediarr
+: 1701367685:0;pnpm add -D turbo@latest typescript
+: 1701367742:0;node -v
+: 1701367752:0;nvm list
+: 1701367812:0;pnpm -v
+: 1701369364:0;cd src/tooling/prettier
+: 1701369626:0;mkcd tsconfig
+: 1701370464:0;pnpm use --lts
+: 1701371256:0;pnpm add postgres
+: 1701372316:0;cd ../../..
+: 1701372562:0;pnpm --filter db update
+: 1701372953:0;nvm use --lts
+: 1701373018:0;pnpm add commander
+: 1701373219:0;pnpm add @mediarr/db
+: 1701376535:0;pnpm add -D ts-node-dev
+: 1701378750:0;pnpm add -D ts-node
+: 1701379058:0;pnpm --filter cli dev
+: 1701379376:0;node index.js enak Prairie97 --admin
+: 1701379729:0;cd ~/projects/develop/mediarr/apps/cli
+: 1701379938:0;pnpm dev enak Prairie97 --admin
+: 1701379950:0;pnpm dev -- enak Prairie97 --admin
+: 1701380017:0;pnpm dev -- register enak Prairie97 --admin
+: 1701380075:0;pnpm remove tsup
+: 1701380891:0;cd apps/cli/dist
+: 1701382095:0;pnpm tsup
+: 1701382184:0;pnpm psuh
+: 1701382351:0;cd db
+: 1701383977:0;pnpm add -D @types/node @types/express
+: 1701383986:0;pnpm add @mediarr/db zod
+: 1701384592:0;node --inspect index.js
+: 1701384777:0;pnpm add winston express-winston
+: 1701385232:0;pnpm add passport passport-local express-session connect-redis bcrypt
+: 1701385252:0;pnpm add -D @types/passport @types/passport-local @types/bcrypt
+: 1701385350:0;pnpm add -D @types/express-session
+: 1701385443:0;pnpm add reids
+: 1701385448:0;pnpm add redis
+: 1701427007:0;gh repo clone lisledesign/azureDigidown
+: 1701429948:0;pnpm remove dotenv
+: 1701448353:0;pnpm add -D @mediarr/tsconfig typescript @mediarr/prettier-config prettier @mediarr/eslint-config eslint
+: 1701448491:0;cd ../../apps/server
+: 1701448615:0;cd ../cli
+: 1701452687:0;cd ~/projects/develop/mediarr/
+: 1701545738:0;cd dist
+: 1701545742:0;DATABASE_URL=postgres://admin:dev@localhost:5432/mediarr-dev TRAKT_CLIENT_ID="79a3443495d0f2b305326b6b9316508086fcc843648a169b0906d660827354cc" TRAKT_CLIENT_SECRET="eb333d39f69c6f451e4e357cdefec0d5f3f2526fa1745bc56a303dc70a88d6e" node index.js register deek Prairie97
+: 1701545805:0;DATABASE_URL=postgres://admin:dev@localhost:5432/mediarr-dev TRAKT_CLIENT_ID="79a3443495d0f2b305326b6b9316508086fcc843648a169b0906d660827354cc" TRAKT_CLIENT_SECRET="eb333d39f69c6f451e4e357cdefec0d5f3f2526fa1745bc56a303dc70a88d6e" node index.js register enak Prairie97 --admin
+: 1701563308:0;mkcd recycler
+: 1701641665:0;pnpm turbo prune server --docker
+: 1701642496:0;DOCKER_BUILDKIT=1 docker build --pull --rm -f "Dockerfile" -t mediarr:latest "." --no-cache
+: 1701647414:0;docker build --pull --rm -f "Dockerfile" -t mediarr:latest "." --no-cache
+: 1701713092:0;pnpm push
+: 1701767418:0;cd Digidown
+: 1701767420:0;cd DigidownR
+: 1701767424:0;cd Software
+: 1701767429:0;cd STM32_Mainbranch
+: 1701781873:0;cd packages/types
+: 1701905318:0;cat ~/.gitconfig
+: 1701986013:0;echo "$(whoami) ALL=(root) NOPASSWD: sha256:$(shasum -a 256 $(which yabai) | cut -d " " -f 1) $(which yabai) --load-sa"
+: 1701986047:0;sudo visudo -f /private/etc/sudoers.d/yabai
+: 1701986084:0;rm -rf Herd
+: 1701986100:0;mkcd Herd
+: 1701986859:0;YABAI_CERT=yabai-cert sh -c "$(curl -fsSL "https://git.io/update-yabai")" &\
+
+: 1701987012:0;sudo skhd --reload-service
+: 1701987247:0;csrutil status
+: 1701987361:0;sudo yabai --load-sa
+: 1701987376:0;skhd --reload-service
+: 1701987385:0;brew services list
+: 1701987403:0;skhd --restart-service
+: 1701987564:0;rm /tmp/yabai_${USER}.socket\
+rm /tmp/yabai-sa_${USER}.socket
+: 1701987572:0;rm /tmp/yabai_${USER}.socket
+: 1701987582:0;rm /tmp/yabai-sa_${USER}.socket\
+
+: 1701987776:0;cat /tmp/yabai_enak.out.log
+: 1701987793:0;rm /tmp/yabai_enak.err.log
+: 1701987835:0;sudo yabai
+: 1701987839:0;yabai
+: 1701987952:0;cd .config/dotfiles
+: 1701988311:0;cat /tmp/yabai_enak.err.log
+: 1702047545:0;skhd --start-service
+: 1702047557:0;skhd --stop-service
+: 1702047559:0;skhd
+: 1702063855:0;unlink ~/.config/nvim
+: 1702063887:0;rm ~/.local/share/nvim
+: 1702063890:0;sudo rm ~/.local/share/nvim
+: 1702063899:0;sudo rm ~/.local/state/nvim
+: 1702063908:0;sudo rm ~/.cache/nvim
+: 1702064011:0;rm -rf ~/.local/share/nvim
+: 1702064019:0;sudo rm -rf ~/.local/share/nvim
+: 1702064043:0;sudo rm -rf ~/.local/state/nvim
+: 1702064061:0;sudo rm -rf ~/.cache/nvim
+: 1702064071:0;git clone https://github.com/LazyVim/starter ~/.config/nvim\
+\
+
+: 1702064077:0;cd nvim
+: 1702064368:0;rm -rf nvim
+: 1702064385:0;mv nvim dotfiles
+: 1702064420:0;sudo ln -s $HOME/.config/dotfiles/nvim $HOME/.config/
+: 1702072448:0;cd ../example
+: 1702077769:0;php artisan make:command Register
+: 1702135814:0;pnpm db:up
+: 1702142131:0;adb connect 192.168.0.5
+: 1702148197:0;php artisan make:migration create_progress_table
+: 1702149093:0;cd /.config/
+: 1702154508:0;netstat -vanp tcp | grep 80
+: 1702154534:0;sudo lsof -i :3000
+: 1702154538:0;sudo lsof -i :80
+: 1702154700:0;sail artisan sail:publish
+: 1702154823:0;./vendor/bin/sail up
+: 1702154910:0;~/.zshrc
+: 1702155154:0;mkcd sail
+: 1702155165:0;curl -s "https://laravel.build/Mediarr" | bash
+: 1702155519:0;curl -s "https://laravel.build/Mediarr?with=pgsql,redis" | bash
+: 1702155870:0;adb connect 192.168.1.132
+: 1702155889:0;cd ../sail/Mediarr
+: 1702156090:0;rm -rf Mediarr
+: 1702156202:0;php artisan sail:install\
+\
+
+: 1702156233:0;cd Mediarr
+: 1702158396:0;sail artisan make:migration create_user_settings_table
+: 1702158724:0;sail artisan make:migration create_devices_table
+: 1702158934:0;sail artisan make:migration create_episode_progress_table
+: 1702158942:0;sail artisan make:migration create_movie_progress_table
+: 1702159438:0;sail composer require thiagoprz/eloquent-composite-key
+: 1702159883:0;composer require thiagoprz/eloquent-composite-key
+: 1702167484:0;sail artisan make:command Register
+: 1702167769:0;sail artisan migrate:down
+: 1702168031:0;sail artisan migrate:rollback
+: 1702203820:0;sail npm i
+: 1702204587:0;sail npm i -D prettier @catppuccin/tailwindcss prettier-plugin-tailwindcss
+: 1702224242:0;cd ~/Herd/mediarr
+: 1702224259:0;cd sail/Mediarr
+: 1702224288:0;cd ~/Herd/sail/Mediarr
+: 1702224359:0;cd resources
+: 1702224360:0;cd js
+: 1702224363:0;cd Pages
+: 1702224368:0;mv auth Auth
+: 1702224375:0;cd ../../
+: 1702319815:0;sail artisan migrate:drop
+: 1702320423:0;sail up
+: 1702327935:0;sail npm run dev
+: 1702331736:0;sail artisan migrate:reset
+: 1702331914:0;sail artisan migrate
+: 1702331926:0;sail artisan app:register enak Prairie97 --admin
+: 1702374693:0;cd digidown_root/portal
+: 1702383766:0;git merge main
+: 1702400712:0;unlink ~/.zshrc
+: 1702400734:0;unlink ~/.zshenv
+: 1702400743:0;rm -rf ~/.zprofile
+: 1702400747:0;rm -rf ~/.zprofile.bak
+: 1702400753:0;rm -rf ~/.zcompdump
+: 1702400757:0;rm -rf ~/.zcompdump-Kaneâ€ƒ¹s\ MacBook\ Pro-5.9
+: 1702400776:0;brew list installed
+: 1702400782:0;brew -h
+: 1702400789:0;brew list -h
+: 1702400818:0;brew remove dropbox
+: 1702400827:0;brew remove rapodapo
+: 1702400835:0;brew remove kodi
+: 1702400841:0;brew remove rapidapi
+: 1702400858:0;brew remove font-cascadia-code
+: 1702400870:0;brew remove font-fira-mono-nerd-font
+: 1702400874:0;brew list
+: 1702400910:0;zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
+: 1702400923:0;source ~/.zshrc
+: 1702401566:0;ln -s /home/enak/.config/dotfiles/zsh/.zprofile /home/enak/.zprofile
+: 1702401594:0;ln -s ~/.config/dotfiles/zsh/.zprofile ~/.zprofile
+: 1702401644:0;ln -s ~/.config/dotfiles/zsh/zshenv ~/.zshenv
+: 1702401770:0;cat ~/.zprofile
+: 1702401789:0;cat .zprofile
+: 1702402256:4;pnpm add -D typescript ts-node-dev @types/node
+: 1702402264:0;pnpm add dotenv
+: 1702490744:1;pnpm add string-similaritty
+: 1702490747:1;pnpm add string-similarity
+: 1702490823:0;pnpm add fastest-levenshtein
+: 1702491604:1;pnpm add -D prettier-plugin-tailwindcss
+: 1702491668:0;pnpm add -D @mediarr/tsconfig
+: 1702491916:8;pnpm add -D @next/eslint-plugin-next
+: 1702492282:1;node --v
+: 1702492287:0;node --version
+: 1702492567:0;pnpm add -Dw husy
+: 1702492701:0;npx husky add .husky/pre-commit "pnpm typecheck && pnpm lint && pnpm format"
+: 1702492857:7;pnpm add -Dw commitlint-config-monorepo\
+
+: 1702492879:0;npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
+: 1702493020:0;npx tsc --noEmit
+: 1702494086:1;pnpm build
+: 1702494403:3;pnpm add -D @mediarr/tsconfig @mediarr/prettier-config @mediarr/eslint-config @types/node @types/express
+: 1702502243:2;pnpm --filter server add -D typescript
+: 1702502286:0;sudo lsof -i :3000\
+
+: 1702502290:0;sudo lsof -i :8000
+: 1702502303:0;kill 6264
+: 1702502430:36;pnpm dlx create-next-app@latest
+: 1702502494:3;pnpm add -D @mediarr/tsconfig @mediarr/prettier-config
+: 1702502867:2;pnpm add -D @mediarr/eslint-config
+: 1702504240:4;pnpm add -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
+: 1702504537:2;pnpm add -D @mediarr/eslint-config @mediarr/prettier-config @mediarr/tsconfig
+: 1702504695:3;pnpm add @mediarr/db commander
+: 1702504836:2;pnpm lint --fix
+: 1702505072:4;pnpm add bcrypt
+: 1702505084:2;pnpm add -D @types/bcrypt
+: 1702506387:2;pnpm add -D @mediarr/eslint-config @mediarr/prettier-config @mediarr/tsconfig typescript
+: 1702506642:3;pnpm add -D @mediarr/types
+: 1702507514:0;pnpm add -D dotenv-cli
+: 1702507518:3;pnpm add -Dw dotenv-cli
+: 1702509449:0;pnpm turbo prune @mediarr/server --docker
+: 1702509610:19;docker-compose up
+: 1702556486:2;pnpm remove dotenv-cli
+: 1702556959:2;pnpm turbo build --filter=cli
+: 1702560960:3;pnpm --filter server add passport passport-local express-session connect-redis bcrypt
+: 1702560984:4;pnpm --filter server add -D @types/passport @types/passport-local @types/bcrypt
+: 1702561175:3;pnpm --filter server add redis
+: 1702561668:2;pnpm --filter server add express-session
+: 1702561678:2;pnpm --filter server add -D @types/express-session
+: 1702580961:3;pnpm lint:fix
+: 1702662696:0;adb connect 192.168.1.99
+: 1703061753:700;ssh mediarr
+: 1702578534:0;echo $CWD
+: 1702578541:0;$PWD
+: 1702580785:1;pnpm --filter db build
+: 1702678120:0;pnpm --filter
+: 1702917825:1;vim .,
+: 1703080972:0;cd Persistence
+: 1703081018:0;dotnet add reference ../Domain
+: 1703082494:0;cd Api
+: 1703088930:2;dotnet new console -n Cli
+: 1703088940:1;dotnet sln add Cli
+: 1703088945:0;cd Cli
+: 1703088949:0;dotnet add reference ../Persistence
+: 1703113681:20;ssh enak@49.13.152.186
+: 1703113739:0;ipconfig
+: 1703113751:7;arp -a
+: 1703113857:0;ssh enak@192.168.1.86
+: 1703113881:29;ssh enak@192.168.1.118
+: 1703284322:0;lsof -i tcp:800
+: 1703284511:0;kill 39061
+: 1703284519:0;kill 40228
+: 1703284923:0;kill 47655
+: 1703287481:0;kill 52073
+: 1703327977:0;kill 98644
+: 1703278527:0;mkcd go
+: 1703445734:0;cd Downloads
+: 1703609537:11;ssh enak@192.168.1.36
+: 1703609918:1;ssh enak@192.168.1.225
+: 1703609922:17;ssh enak@192.168.1.136
+: 1703610029:1;vim /Users/enak/.ssh/known_host
+: 1703613291:4;vim /Users/enak/.ssh/known_hosts
+: 1703403591:13;brew install tor
+: 1703403674:1;brew install torbrowser
+: 1703403744:2;brew remove tor
+: 1703408175:2;brew remove tor-browser
+: 1703779267:3;pnpm --filter server add parse-torrent-title
+: 1703795757:51;pnpm cli register enak Prairie97 XRAGHX3BJS2DIB55PBHNXZKILOVRTW7GQ56S6MEB63LC26NE7E6A --admin
+: 1703283304:0;kill 30973
+: 1703868601:0;ssh
+: 1703873662:2973;ssh root@116.203.101.255
+: 1703870407:1;adb connect 192.168.1.21
+: 1703872539:10;sudo vim /Users/enak/.ssh/known_hosts
+: 1703872550:271;ssh root@49.13.152.196
+: 1703873016:2;chsh
+: 1703882148:8;ssh enak@116.203.101.255
+: 1703438800:0;cd ~/.config/dotfiles
+: 1703845397:0;netstat -vanp tcp | grep 8000
+: 1703845421:1;lsof -i tcp:3000
+: 1703845434:0;kill 17091
+: 1703845443:0;ill 48310
+: 1703845447:0;kill 48310
+: 1703859332:0;2
+: 1703962109:0;yaba
+: 1703964130:0;scp -R ~/projects/develop/mediarr mediarr@116.203.101.255
+: 1703964137:13;scp -r ~/projects/develop/mediarr mediarr@116.203.101.255
+: 1703967125:211;scp -r ~/projects/develop/mediarr mediarr@116.203.101.255:/home/mediarr
+: 1703956873:0;ssh mediarr@4
+: 1702495809:0;cd projects
+: 1702495815:0;cd develop/mediarr
+: 1703984204:7;rm -rf *
+: 1703283439:1;adb connect 192.168.1.165
+: 1703845236:0;adb connect 192.168.1.5
+: 1703979229:0;adb connect 192.168.1.39
+: 1703984518:0;vim mediarr
+: 1703973602:1;git commit -m "fix(server): torrent validation"
+: 1702402195:0;mkcd torrent-search
+: 1702402210:1;pnpm add parse-torrent-title
+: 1702491029:8;pnpm add -D typescript turbo
+: 1702401937:0;mkcd $WORKSPACE
+: 1702401976:0;cd ~/Documents/
+: 1703073659:0;mkcd cs
+: 1703073689:0;mkcd Mediarr
+: 1703073733:0;dotnet new gitignore
+: 1703073740:1;dotnet new classlib -n Domain
+: 1703073755:0;dotnet new classlib -n Persistence
+: 1703073764:1;dotnet new webapi -n Api
+: 1703074128:0;dotnet sln add Domain
+: 1703074134:0;dotnet sln add Api
+: 1703074141:0;dotnet sln add Persistence
+: 1703340126:0;rm -rf ../cs
+: 1703340130:0;rm -rf ../go
+: 1703340135:0;rm -rf ../torrent-search
+: 1703340581:0;sudo rm -rf MediarrTV
+: 1703964037:2;git push --set-upstream origin main
+: 1704028312:3;adb connect 192.168.0.3
+: 1704028882:0;cd MediarrTV
+: 1704023910:5167;ssh mediarr@116.203.101.255
+: 1704033647:29;npm i
+: 1704034421:0;lsof -i tcp:80
+: 1704033431:0;cd Herd
+: 1704033434:0;cd example
+: 1704036748:0;adb connect 192.168.4.21
+: 1704036797:0;cd ~/projects/develop/mediarr
+: 1704036814:0;cd server
+: 1704036824:0;cd develop
+: 1704036838:0;adb connect app-r
+: 1704039825:0;adb usb
+: 1704018968:0;pkill tmux
+: 1704033253:0;composer require laravel/sail --dev --devcontainer
+: 1704033273:5;composer require laravel/sail --dev
+: 1704033292:35;php artisan sail:install --devcontainer
+: 1704039985:0;cd ~/projects/develop
+: 1704039990:0;cd recycler
+: 1704040383:0;adb disconnect 192.168.1.68
+: 1704044572:0;adb disconnect 192.168.1.178
+: 1704044679:3;adb connect 192.168.1.19
+: 1704064569:0;cd Herd/example
+: 1704109807:1;pnpm --filter server typecheck
+: 1704222074:0;npm run prettier
+: 1704222111:1;npm run format
+: 1704222846:0;php artisan make:test TraktTest --unit
+: 1704224302:0;php artisan test
+: 1704047623:0;cd ~/projects/develop/recycler/app/release
+: 1704130231:0;cd ~/Herd/example
+: 1704221711:0;cd laravel
+: 1704234026:0;rm -rf laravel
+: 1704236312:0;defaults write -g AppleFontSmoothing -int 0
+: 1704235908:0;defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO\
+
+: 1704235914:0;defaults -currentHost write -globalDomain AppleFontSmoothing -int 2\
+
+: 1704236695:0;echo $TERM
+: 1704236969:100;brew upgrade
+: 1704237387:0;mkcd tooling
+: 1704237406:0;mkcd typescript
+: 1704237578:0;pnpm inti
+: 1704237731:5;pnpm add -D prettier-plugin-tailwindcss prettier @ianvs/prettier-plugin-sort-imports
+: 1704237758:1;pnpm add -D typescript @mediarr/tsconfig
+: 1704238054:2;pnpm add -D typescript @mediarr/tsconfig @mediarr/prettier-config
+: 1704238829:3;pnpm add -D @catppuccin/tailwindcss
+: 1704238927:0;mkcd packages
+: 1704239058:4;pnpm add drizzle-orm postgres
+: 1704239080:8;pnpm add -D drizzle-kit tsup
+: 1704239496:0;mkcd server
+: 1704239504:2;pnpm add -D typescript @mediarr/tsconfig @mediarr/prettier-config @mediarr/eslint-config
+: 1704239659:4;pnpm add express @mediarr/db
+: 1704239671:2;pnpm add -D @types/express
+: 1704239748:4;pnpm --filter server add -D tsup
+: 1704239925:0;mkcd cli
+: 1704239968:4;pnpm add -D typescript @mediarr/tsconfig @mediarr/prettier-config @mediarr/eslint-config @types/node tsup
+: 1704240071:0;cd apps/cli
+: 1704240072:2;pnpm add commander @mediarr/db
+: 1704240288:0;pnpm add -D dotenv
+: 1704240295:1;pnpm add -Dw dotenv
+: 1704303691:1;pnpm --filter server add zod
+: 1704303946:5;pnpm --filter server add winston express-winston
+: 1704304030:3;pnpm --filter server add winston-daily-rotate-file
+: 1704305585:1;pnpm remove lint-staged
+: 1704305617:2;pnpm add -Dw husky
+: 1704305678:0;pnpm husky install
+: 1704305679:0;npx husky add .husky/pre-commit "pnpm lint:fix && pnpm format:fix && pnpm typecheck"
+: 1704360429:0;export YABAI_CERT=yabai-cert
+: 1704360440:12;brew reinstall koekeishiya/formulae/yabai
+: 1704360455:0;codesign -fs "${YABAI_CERT:-yabai-cert}" "$(brew --prefix yabai)/bin/yabai"\
+
+: 1704360477:0;yabai --start-service\
+
+: 1704359889:3;npm add @directus/sdk
+: 1704360799:19;npx astro add tailwind\
+
+: 1704362359:0;alacritty migrate
+: 1704362622:2;npm i @directus/sdk
+: 1704362684:2;npm i zod
+: 1704362887:17;npm i -D prettier prettier-plugin-tailwindcss
+: 1704362547:46;npx create-next-app@latest
+: 1704375842:4;dotnet add package ConsoleAppFramework --version 4.2.4
+: 1704376006:0;cd HttpStressTester/
+: 1704376044:1;dotnet build
+: 1704376064:0;bin/Debug/net8.0/HttpStressTester
+: 1704375620:0;mkcd HttpStressTester
+: 1704375625:0;dotnet new sln
+: 1704375649:1;dotnet new console -n HttpStressTester
+: 1704375656:0;dotnet sln add HttpStressTester
+: 1704355858:5;pnpm create astro@latest --template lisle-design
+: 1704356322:14;gh repo clone directus/examples
+: 1704356342:0;cd examples/directus
+: 1704356365:26;docker compose up -d
+: 1704356517:0;cp .env.example .env
+: 1704358971:0;cd directus
+: 1704358974:0;cat docker-compose.yml
+: 1704359844:0;cd astro
+: 1704358872:0;mkcd dev
+: 1704358894:96;npm create astro@latest
+: 1704358992:0;cd lisle-design
+: 1704366867:0;npm run dev
+: 1704377029:0;cd HttpStressTester
+: 1704386800:1;pnpm add -Dw commitlint-config-monorepo @commlintlint/cli @commitlint/config-conventional
+: 1704402583:1;lsof -i tcp:5000
+: 1704387486:0;cd ~/Herd
+: 1704387913:0;mkcd node_example
+: 1704404146:0;cd ~/Library/Group\ Containers/group.com.docker/\
+
+: 1704404157:0;cat settings.json
+: 1704404185:0;cp settings.json settings.json.bak
+: 1704404412:14;vim settings.json
+: 1704404435:0;rm settings.json
+: 1704404441:0;mv settings.json.bak settings.json
+: 1704446948:23;npm i puppeteer
+: 1704458974:0;cd Driver
+: 1704458983:0;cd Windows\ C2\ Driver
+: 1704459255:0;cd Linux\ Driver
+: 1704447598:2;npm install --save puppeteer-cluster
+: 1704468066:0;cd apps/server
+: 1704468072:2;pnpm remove passport
+: 1704468083:3;pnpm add passport@0.5
+: 1704497278:0;cd svn/
+: 1704475597:1;pnpm dev --filter web,server
+: 1704475602:1;pnpm dev --filter web server
+: 1704475609:1;pnpm dev --filter web, server
+: 1704553654:3;pnpm --filter server add xray
+: 1704553673:4;pnpm --filter server remove xray
+: 1704553679:6;pnpm --filter server add x-ray
+: 1704553804:8;pnpm --filter server add -D @types/x-ray
+: 1704554693:1;pnpm add typescript
+: 1704554705:1;pnpm tsc --init
+: 1704564539:0;kill 96906
+: 1704568954:0;kill -9 $(lsof -ti:8000,3000)
+: 1704570812:1119;pnpm dev --filter=web --filter=server
+: 1704571942:3;pnpm --filter server add -D @mediarr/types
+: 1704554654:0;mkcd scraper
+: 1704554671:4;pnpm add playwright playwright-extra
+: 1704554827:6;pnpm add puppeteer-extra-plugin-stealth
+: 1704446129:0;cd ../dev/HttpStressTester/HttpStressTester
+: 1704446550:0;ulimit -n 2048
+: 1704446904:0;mkcd portal_test
+: 1704446910:2;npm init
+: 1704446915:0;npm init -y
+: 1704447108:4;dotnet add package PuppeteerSharp --version 13.0.2
+: 1704467180:0;cd cli
+: 1704467574:0;cd ../dev/mediarr
+: 1704662853:0;cd ~/CLionProjects
+: 1704534840:0;kill 36234
+: 1704534841:0;pnpm dev --filter server --filter web
+: 1704443213:0;cd Documents/lisle/digidownPortal
+: 1704443358:0;vimv.
+: 1704445681:0;git commit -m "testing sendgrid templates"
+: 1704446118:0;vtmux
+: 1704739316:2;pnpm --filter cli add -D @mediarr/types
+: 1704747485:0;mkcd tmdb_types
+: 1704747497:4;pnpm i -D openapi-typescript\
+
+: 1704747603:3;curl -o ./tmdb.json https://developer.themoviedb.org/openapi/64542913e1f86100738e227f
+: 1704747610:0;cat tmdb.json
+: 1704747669:4;npx openapi-typescript https://developer.themoviedb.org/openapi/64542913e1f86100738e227f -o tmdb.ts
+: 1704708188:4;node
+: 1704708199:0;node run start
+: 1704708312:1;sudo rm -rf node_modules
+: 1704708757:1;npm install
+: 1704703298:0;cd lisledesign
+: 1704669424:0;cd zips/repository.cocoscrapers
+: 1704669442:16;vim script.module.cocoscrapers
+: 1704667756:129;pnpm --filter server dev
+: 1704747810:0;cd tmdb_types
+: 1704747127:0;pnpm typechec
+: 1704756014:0;cd android
+: 1704756015:0;./gradlew --stop (in MacOS)
+: 1704756022:0;./gradlew --stop
+: 1704756027:0;npx expo run:android --info
+: 1704756042:1;npx expo run:android --device
+: 1704756137:4;pnpm i @react-native-community/cli-platform-android
+: 1704756327:6;pnpm add -D @mediarr/tsconfig @mediarr/prettier-config @mediarr/eslint-config
+: 1704756548:7;pnpm --filter tvos dev:android
+: 1704756707:2;pnpm --filter tvos android
+: 1704756732:0;cd apps/tvos
+: 1704757149:6;pnpm --filter tvos tvos
+: 1704747787:10;tmuxa 0
+: 1704747803:45076;tmuxa 1
+: 1704795264:0;cd ~/Documents/lisle/public_html
+: 1704755409:0;adb connect 192.168.1.204
+: 1704755422:0;adb -h
+: 1704755429:0;adb --help
+: 1704755452:0;adb connected
+: 1704755662:0;adb devices
+: 1704755235:47;pnpm create react-native-app
+: 1704755288:0;rm -rf tvos
+: 1704755327:2;pnpm create react-native-app tvos --template https://github.com/react-native-tvos/react-native-template-typescript-tv/tree/tv-release-0.73.1 --template-path template
+: 1704755335:98;pnpm create react-native-app tvos --template https://github.com/react-native-tvos/react-native-template-typescript-tv/tree/tv-release-0.73.0 --template-path template
+: 1704755501:0;cd tvos
+: 1704755656:1;npx expo run:android --device device
+: 1704755675:0;npx expo run:android --device npx expo run:android
+: 1704755688:1;npx expo run:android --device npx 192.168.1.204:5555
+: 1704755696:2;npx expo run:android
+: 1704757503:24;pnpm create expo-app MyNewProject -e with-tv\
+
+: 1704757528:0;cd MyNewProject\
+
+: 1704757534:0;export EXPO_TV=1\
+
+: 1704757539:27;npx expo prebuild\
+
+: 1704757823:0;java -v
+: 1704757828:0;java --v
+: 1704757836:2;brew remove java
+: 1704757851:1;brew search java
+: 1704757884:106;brew install openjdk@17 \
+
+: 1704758055:0;export JAVAHOME=/opt/homebrew/opt/openjdk@17/bin
+: 1704758367:0;export PATH=$PATH:/opt/homebrew/opt/openjdk@17/bin
+: 1704757720:0;cd MyNewProject
+: 1704758174:1;pnpm android
+: 1704802414:0;cd Documents/lisle/dev/HttpStressTester/HttpStressTester
+: 1704817643:113;dotnet run
+: 1704809344:0;cd Documents/lisle/
+: 1704810595:0;cd HttpStressTester/HttpStressTester
+: 1704833419:1;pnpm setup
+: 1704833433:0;source ~/.config/zsh/.zshrc
+: 1704833447:2;pnpm add -g pnpm
+: 1704833361:0;cd $WORKSPACE/
+: 1704883009:29;vim ,
+: 1704883918:0;cd ,,
+: 1704883574:0;cd dev/
+: 1704883576:0;cd portal_test
+: 1704964391:0;cd host
+: 1704964481:0;cd DigidownHost_6
+: 1704966518:0;adb connect 192.168.1.234
+: 1704969562:0;cat lisledesign_com/index.php
+: 1704879764:3;gh repo clone lisledesign/digidownAdmin
+: 1704924273:0;cd /Pro
+: 1704884323:63;node .
+: 1704981031:0;cd SmartCardRack/Driver/Linux\ Driver
+: 1704981042:0;cd digidown-hyperdriver-multi
+: 1704969625:0;cd lisledesign_com
+: 1704979696:0;open .
+: 1704993140:0;s
+: 1705165424:1;pnpm db:psuh
+: 1705165472:50;pnpm cli register enak Prairie97 --admin
+: 1705263254:0;adb connect 192.168.1.182
+: 1705268004:0;adb disconnect 192.168.1.211
+: 1705263283:0;cd app
+: 1705263286:0;cd build
+: 1705263295:0;cd release
+: 1705263897:0;adb connect 192.168.1.178
+: 1705263947:0;adb list
+: 1705263958:0;adb disconnect 192.168.1.182
+: 1705263989:15;adb install app-release.apk
+: 1705230204:0;tmuxk 0
+: 1705230206:0;tmuxk 1
+: 1705230207:0;tmuxk 2
+: 1705230208:0;tmuxk 3
+: 1705230209:0;tmuxk 4
+: 1705230280:0;cd umbrellaplug.github.io
+: 1705230282:0;cd nexus
+: 1705230285:0;cd plugin.video.umbrella
+: 1705238563:0;cd $WORKSPACE/dev
+: 1705238569:0;rm -rf MediarrTV
+: 1705413963:0;git rebase
+: 1705413806:0;rm -rf includes
+: 1705413813:2;gh repo clone lisledesign/includes
+: 1705413821:0;cd includes
+: 1705439123:1;mkcd android
+: 1705617398:3;gh repo clone stantanasi/streamflix
+: 1705682875:0;kill 40161
+: 1705683753:0;kill 87619
+: 1705683831:0;lsof -i tcp:8000
+: 1705683966:0;kill -9 $(lsof -ti:8000)
+: 1705710196:0;cp ~/.config/alacritty.toml ./alacritty
+: 1705710281:0;cat /var/folders/3n/sqxd0srd4jl0jvj7qhmw7tv80000gn/T/Alacritty-4886.log
+: 1705710397:0;rm -rf ~/.config/alacritty.toml
+: 1705710419:0;ln -s $DOTFILES/alacritty/alacritty.toml ~/.config/
+: 1705710439:0;unlink ~/.config/alacritty.yml
+: 1705710442:0;cd alacritty
+: 1705710447:0;rm -rf alacritty.yml
+: 1705710475:0;rm -rf /var/folders/3n/sqxd0srd4jl0jvj7qhmw7tv80000gn/T/Alacritty*
+: 1705710642:1;curl -LO --output-dir ~/.config/dotfiles/alacritty/themes https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
+: 1705711373:6;brew update
+: 1705711539:0;yabai --stop-service
+: 1705711545:0;yabai --start-service
+: 1705711778:0;cd yabai
+: 1705711808:0;chmod +x update.sh
+: 1705711820:16;./update.sh
+: 1705711916:0;clea
+: 1705711969:6;brew install borders\
+
+: 1705712302:0;./backup/com.enak.backup.sh
+: 1705712312:0;chmod +x backup/com.enak.backup.sh
+: 1705712316:3;backup/com.enak.backup.sh
+: 1705712374:0;[ ! -d ~/Library/scripts ] && mkdir -p ~/Library/scripts\
+
+: 1705712377:0;ln -s $DOTFILES/backups/com.enak.backup.sh $HOME/Library/scripts/com.enak.backup.sh\
+
+: 1705712381:0;sudo chown $USER:wheel $HOME/Library/scripts/com.enak.backup.sh\
+
+: 1705712390:0;sudo chown $USER:wheel $HOME/Library/scripts/com.enak.backup.sh
+: 1705712399:0;sudo chown {$USER}:wheel $HOME/Library/scripts/com.enak.backup.sh
+: 1705712408:0;sudo chown enak:wheel $HOME/Library/scripts/com.enak.backup.sh
+: 1705712413:0;sudo chmod +x $HOME/Library/scripts/com.enak.backup.sh\
+
+: 1705712448:0;sudo chmod +x $HOME/Library/scripts/com.enak.backup.sh
+: 1705712461:0;sudo chmod +x /home/enak/Library/scripts/com.enak.backup.sh
+: 1705712486:0;chmod +x /home/enak/Library/scripts/com.enak.backup.sh
+: 1705712492:0;cd /home/enak
+: 1705712501:0;cd $HOME/Library/scripts
+: 1705712568:0;unlink com.enak.backup.sh
+: 1705712597:0;echo $HOME
+: 1705712632:0;ln -s /Users/enak/.config/dotfiles/backup/com.enak.backup.sh /Users/enak/Library/scripts
+: 1705712637:0;chmod +x com.enak.backup.sh
+: 1705712695:0;ln -s /Users/enak/.config/dotfiles/backup/com.enak.backup.plist /Users/enak/Library/LaunchAgents
+: 1705712729:0;sudo chown enak:wheel /Users/enak/.config/dotfiles/backup/com.enak.backup.plist
+: 1705712758:0;launchctl load /Users/enak/Library/LaunchAgents/com.enak.backup.plist
+: 1705713479:0;defaults write -g AppleFontSmoothing -int 1
+: 1705713583:16;gh repo create
+: 1705759820:0;yabai --restart-service
+: 1705779230:70;brew install orion
+: 1705782212:69;brew install tor-browser
+: 1705754739:0;cd dev/mediarr
+: 1705846784:14077;ssh enak@49.13.152.196
+: 1705797693:0;cd backup
+: 1705797697:10;./com.enak.backup.sh
+: 1705797740:4;/Users/enak/library/scripts/com.enak.backup.sh
+: 1705797841:0;cat /tmp/com.enak.backup.log
+: 1705798032:0;launchctl enable $HOME/Library/LaunchAgents/com.enak.backup.plist\
+
+: 1705798044:0;launchctl enable /Users/enak/Library/LaunchAgents/com.enak.backup.plist
+: 1705798072:0;launchctl enable com.enak.backup.plist
+: 1705798089:38;man launchctl
+: 1705798141:0;launchctl enable enak/com.enak.backup
+: 1705798284:0;sudo launchctl bootstrap gui/$(id -u) /Users/enak/Library/LaunchAgents/com.enak.backup.plist
+: 1705798307:0;launchctl bootstrap gui/$(id -u) /Users/enak/Library/LaunchAgents/com.enak.backup.plist
+: 1705798441:0;sudo chown enak:wheel /Users/enak/Library/LaunchAgents/com.jetbrains.toolbox.plist
+: 1706022585:0;cd ../public_html
+: 1706007185:3;gh repo clone lisledesign/digidownPortal
+: 1706007201:0;git checkout staging
+: 1705796573:0;cat /tmp/com.enak.backup.err
+: 1705796576:0;cat /tmp/com.enak.backup.out
+: 1706002068:0;cd digidownAdmin
+: 1706022186:0;cd .
+: 1706022202:0;git checkout master
+: 1706022206:0;git checkout main
+: 1706022239:0;cd azureDigidown
+: 1706045036:0;cd repository.cocoscrapers/zips
+: 1706045041:0;cd script.module.cocoscrapers/resources
+: 1706191481:0;cd $DOTFILES
+: 1706204341:5;pnpm -filter server add parse-torrent-title
+: 1706001981:514390;tmux a -t 0
+: 1706521592:0;cd svn/SerialNumbers
+: 1706521607:1;vim
+: 1706521685:0;cd SerialNumbers_old
+: 1706521686:0;cd master
+: 1706533608:0;mkcd experimental
+: 1706538312:0;cleat
+: 1706630344:8;git commit -m "some message"
+: 1706638925:0;exit
+: 1706605686:0;cd Documents/lisle
+: 1706605703:0;git add rack_diagnostic.php
+: 1706605717:1;git commit -m "email rack_diagnostic files"
+: 1706605734:2;git pull --rebase
+: 1706605739:2;git push
+: 1706629946:0;cleart
+: 1706638916:0;tmuxl
+: 1706638921:87383;tmux a -t 2
+: 1706732838:5;pnpm add @radix-ui/react-navigation-menu
+: 1706731497:0;cd $WORKSPACE
+: 1706731503:0;mkcd lisle
+: 1706731524:24;pnpx create-next-app digidown_portal
+: 1706731572:105;npx storybook@latest init
+: 1706734469:1728;ssh enak@192.168.1.135
+: 1706567906:0;git iniy
+: 1706636911:0;adb connect 192.168.1.211
+: 1706644079:0;adb connect 192.168.1.225
+: 1706045402:0;cd ~/projects
+: 1706045407:0;cd repository.cocoscrapers
+: 1706045409:0;cd zips
+: 1706045415:0;cd script.module.cocoscrapers
+: 1706296603:0;source $ZSHRC
+: 1706300409:1;pnpm db:push
+: 1706308832:0;cd packages/db
+: 1706308849:8;pnpm add -D pg
+: 1706308992:0;killport 3000
+: 1706308994:48;pnpm drizzle-kit studio --port 3000
+: 1706309047:72;pnpm drizzle-kit studio --port 3000 --host localhost
+: 1706309123:1;pnpm drizzle-kit studio --h
+: 1706309126:0;pnpm drizzle-kit studio -h
+: 1706309196:7;pnpm add -D drizzle-kit@latest
+: 1706309227:328;pnpm drizzle-kit studio
+: 1706309565:9;pnpm up --latest
+: 1706486266:0;mkcd goland
+: 1706486276:0;mkcd mediarr
+: 1706486278:0;go mod init github.com/enaknalla/mediarr
+: 1706538644:0;cd Documents/lisle/includes
+: 1706539427:0;cd svn
+: 1706539432:0;cd SmartCardRack
+: 1706540657:0;cd SCRackDiagnostic
+: 1706030266:0;cd $WORKSPACE/mediarr
+: 1706638064:0;cd ~/Documents/lisle
+: 1706638073:0;cd dev/experimental
+: 1706538324:0;cd public_html
+: 1706538327:1;git pull
+: 1706638935:0;cd dev
+: 1706638939:0;cd experimental
+: 1706639351:2;rm -rf digidownPortal
+: 1706639359:40;pnpm create t3-app@latest digidownPortal
+: 1706639415:0;cd digidownPortal
+: 1706638580:0;pnpm drizzle-kit introspect
+: 1706638585:0;pnpm drizzle-kit introspect:mysql2
+: 1706638734:0;pnpm drizzle-kit introspect:mysql
+: 1706784520:0;cp -R $WORKSPACE/dev/mediarr/tooling .
+: 1706784732:0;pnpm add -D husky @commitlint/cli @commitlint/config-convential commitlint-config-monorepo
+: 1706784869:1;pnpm add -Dw husky @commitlint/cli @commitlint/config-convential commitlint-config-monorepo
+: 1706785034:0;pnpm prepare
+: 1706785148:0;chmod +x .husky/pre-commit
+: 1706785154:0;chmod +x .husky/commit-msg
+: 1706785172:15;nest new api
+: 1706785558:3;pnpm add -D @portal/tsconfig @portal/eslint-config @portal/prettier-config
+: 1706786323:2;pnpm format --fix
+: 1706786340:2;pnpm format:fix
+: 1706787440:10;pnpm --filter api dev
+: 1706790970:6;pnpm lint:ws --fix
+: 1706790978:1;pnpm lint:ws
+: 1706784005:0;cd Documents
+: 1706784022:0;mkcd digidown_portal
+: 1706784147:7341;tmux
+: 1706826714:0;cd apps/web
+: 1706826719:17;pnpm add @nextui-org/react framer-motion
+: 1706829232:2;npm i ngx-cookie-service-ssr
+: 1706829667:0;npm run start
+: 1706885932:3;pnpm --filter db add mysql2
+: 1706796674:0;cd $WORKSPACE/dev/mediarr
+: 1706811045:16;cp -R mediarr portal
+: 1706821794:0;cd mediarr
+: 1706821807:0;killport 8000
+: 1706821808:4809;pnpm dev --filter server
+: 1706828949:7;pnpm install -g @angular/cli\
+
+: 1706828970:87;ng new portal_client
+: 1706829066:0;cd portal_client
+: 1706886006:6;pnpm --filter web install bootstrap react-bootstrap
+: 1706886484:0;pnpm dev --filter web
+: 1706811813:0;rm -rf .git
+: 1706812404:0;git init
+: 1706914457:4;pnpm --filter web add -D @portal/tsconfig @portal/eslint-config @portal/prettier-config
+: 1706914783:3;pnpm clean
+: 1706914965:2;pnpm lint
+: 1706914971:2;pnpm format
+: 1706914977:2;pnpm typecheck
+: 1706915258:0;mkcd lint-staged
+: 1706964051:0;cd tooling/typescript
+: 1706964099:0;mkcd prettier
+: 1706964202:1;pnpm add -D @portal/tsconfig
+: 1706964337:3;pnpm add -Dw rimraf
+: 1706964360:0;mkcd eslint
+: 1706964375:1;pnpm add -Dw @portal/tsconfig @portal/prettier-config
+: 1706964478:2;pnpm clean:ws
+: 1706967797:0;mkcd lintstaged
+: 1706967860:3;pnpm add -D @portal/prettier-config
+: 1706967987:0;cd tooling/eslint
+: 1706968000:3;pnpm add -D @portal/lintstaged
+: 1706968287:4;pnpm add -Dw tsc-files lint-staged husky
+: 1706968312:0;npx husky init
+: 1706968327:1;npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'\
+
+: 1706968463:8;pnpm add -Dw @commitlint/config-conventional @commitlint/cli
+: 1706968500:3;pnpm add -Dw commitlint-config-monorepo
+: 1706968743:0;cd apps
+: 1706968927:5;pnpm add -D tsup
+: 1706969279:6;pnpm add express-winston winston winston-daily-rotate-file
+: 1706969699:0;killport 5000
+: 1706969702:2;pnpm dev --filter api
+: 1706969772:19;pnpx create-next-app web
+: 1706969808:0;cd web
+: 1706970121:0;cp ~/Documents/lisle/public_html/favicon.ico ./src/app
+: 1706970237:0;mkcd db
+: 1706970455:5;pnpm --filter db add -D tsup
+: 1706970533:4;pnpm --filter db add drizzle-orm mysql2
+: 1706984170:0;cd packages
+: 1706984173:0;mkcd types
+: 1706984177:5;pnpm add -D @portal/lint-staged-config @portal/eslint-config @portal/tsconfig @portal/prettier-config
+: 1706984186:2;pnpm add zod
+: 1706986391:0;mkcd api
+: 1706986408:2;pnpm add -D @types/express @types/node
+: 1706986414:2;pnpm add express
+: 1706986610:0;cd ../
+: 1706986619:0;cd packages/shared
+: 1706986627:1;pnpm add -D typescript
+: 1706986693:1;pnpm add -D @types/node
+: 1706987091:0;cd apps/
+: 1706987093:0;cd api
+: 1706987098:4;pnpm add -D tsc-watch
+: 1706987217:0;pnpm tsc -b .
+: 1706987234:1;pnpm tsc
+: 1706987248:0;pnpm tsc -b
+: 1706984321:2;pnpm build --filter db
+: 1706985559:0;cd apps/api
+: 1706985572:3;pnpm add @portal/db
+: 1706986324:3;pnpm dev
+: 1706953685:0;adb connect 192.168.1.68
+: 1706963677:0;cd ~/Documents
+: 1706963679:0;cd lisle
+: 1706963684:1;mkcd portal
+: 1706984214:0;code .
+: 1706986340:0;mkcd experiment
+: 1706986345:0;pnpm init
+: 1706986352:2;pnpm add -D turbo
+: 1706987846:0;mkcd bati
+: 1706987847:10;pnpm create @batijs/app --react --tailwindcss --express --eslint --prettier
+: 1706987904:0;cd my-app
+: 1706913917:0;cd digidown_portal
+: 1706913986:0;cd ..
+: 1706913988:0;cd portal
+: 1706915577:0;vim .
+: 1706915716:3;pnpm --filter web add -D @portal/lint-staged-config
+: 1706915731:0;pnpm --filter server,db add -D @portal/lint-staged-config
+: 1706915741:3;pnpm --filter server --filter db add -D @portal/lint-staged-config
+: 1706915864:3;pnpm --filter types add -D @portal/lint-staged-config
+: 1706915950:2;pnpm --filter eslint-config --filter prettier-config add -D @portal/lint-staged-config
+: 1706916119:4;pnpm add -Dw lint-staged
+: 1706916155:1;git commit -m "initial commit"
+: 1706916169:0;git commit -m "feat(repo): initial commit"
+: 1706916557:0;git status
+: 1706916869:3;pnpm lint "/Users/enak/workspace/dev/portal/apps/server/src/index.ts"
+: 1706917496:3;pnpm i
+: 1706962881:0;clear
+: 1706962883:0;git add .
+: 1706962888:0;git comm -m "test"
+: 1706963071:1;git commit -m "test"
+: 1706963211:0;cd tooling
+: 1706963214:0;cd lint-staged
+: 1706963224:11;pnpm add -D tsc-files
+: 1706963250:0;cd ../..
+: 1706963273:2;pnpm add -Dw tsc-files
+: 1706963277:3;pnpm lint-staged
+: 1707049654:0;echo /bin/zsh
+: 1707065758:5;scp app-release.apk enak@49.13.152.196:/home/enak
+: 1707065773:0;echo $PWD
