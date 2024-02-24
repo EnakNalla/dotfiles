@@ -28,7 +28,7 @@ case ${PERCENTAGE} in
 	;;
 [1-2][0-9])
 	ICON=$BATTERY_25
-	COLOR=$ORANGE
+	COLOR=$YELLOW
 	;;
 *)
 	ICON=$BATTERY_0
