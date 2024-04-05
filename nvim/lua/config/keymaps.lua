@@ -2,3 +2,5 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 vim.keymap.set("n", "<leader>qb", ":bd<CR>", { desc = "Close tab" })
+
+vim.g.mapleader = " "

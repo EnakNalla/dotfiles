@@ -1,38 +1,22 @@
 return {
   {
-    "olivercederborg/poimandres.nvim",
-    lazy = false,
-    priority = 100,
+    "catppuccin/nvim",
+    lazy = true,
+    name = "catppuccin",
     config = function()
-      require("poimandres").setup()
+      require("catppuccin").setup({
+        flavour = "macchiato",
+        term_colors = true,
+        no_italic = false,
+        no_bold = false,
+        transparent_background = false,
+      })
     end,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "poimandres",
+      colorscheme = "catppuccin",
     },
   },
 }
--- return {
---   {
---     "catppuccin/nvim",
---     lazy = true,
---     name = "catppuccin",
---     config = function()
---       require("catppuccin").setup({
---         flavour = "macchiato",
---         term_colors = true,
---         no_italic = false,
---         no_bold = false,
---         transparent_background = false,
---       })
---     end,
---   },
---   {
---     "LazyVim/LazyVim",
---     opts = {
---       colorscheme = "catppuccin",
---     },
---   },
--- }
