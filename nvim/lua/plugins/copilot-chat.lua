@@ -15,8 +15,12 @@ return {
             require("CopilotChat").ask(input, { selection = require("CopilotChat.select").buffer })
           end
         end,
-        desc = "Open Copilot Chat",
+        desc = "Ask copilot a question",
       },
+      { "<leader>ao", "<cmd>CopilotChatOpen<CR>", desc = "Open chat" },
+      { "<leader>afc", "<cmd>CopilotChatFix<CR>", desc = "Ask copilot to fix code" },
+      { "<leader>afd", "<cmd>CopilotChatFixDiagnostic<CR>", desc = "Ask copilot to fix diagnostic" },
+      { "<leader>aO", "<cmd>CopilotChatOptimize<CR>", desc = "Ask copilot to optomize code" },
     },
     opts = {},
   },
