@@ -36,3 +36,7 @@ esac
 
 # bun completions
 [ -s "/Users/enak/.bun/_bun" ] && source "/Users/enak/.bun/_bun"
+
+# perl
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
