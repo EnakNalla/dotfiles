@@ -40,3 +40,5 @@ esac
 # perl
 LC_CTYPE=en_US.UTF-8
 LC_ALL=en_US.UTF-8
+
+export PATH="$HOME/go/bin:$PATH"
