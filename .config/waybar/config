@@ -35,8 +35,8 @@
   },
   "clock": {
     "interval": 1,
-    "format": "{:%c}",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "format": "{:%H:%M:%S}",
+    "tooltip-format": "{:%d-%m-%Y}"
   },
   "tray": {
     "spacing": 4
