@@ -55,7 +55,7 @@
       "",
       ""
     ],
-    "max-length": 32
+    "max-length": 24
   },
   "cpu": {
     "interval": 1,

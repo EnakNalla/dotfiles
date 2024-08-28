@@ -38,7 +38,3 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 decorations = "Full"
 dynamic_title = true
 dynamic_padding = true
-
-[window.padding]
-x = 5
-y = 5
